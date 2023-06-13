@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Quiz App</title>
+    <link rel="stylesheet" href="../destination/styles.css" type="text/css">
+</head>
+<body class="h-[100vh] flex justify-center items-center">
+    <div class="border border-black p-5 w-3/4 rounded-md" id="quiz">
+        <p class="my-6 font-bold text-xl" id="question">Question</p>
+        <ul class="list-none">
+            <li>
+                <input type="radio" id="option1" name="option" class="option">
+                <label for="a" id="first_option">Answer</label>
+            </li>
+
+            <li>
+                <input type="radio" id="option2" name="option" class="option">
+                <label for="b" id="second_option">Answer</label>
+            </li>
+
+            <li>
+                <input type="radio" id="option3" name="option" class="option">
+                <label for="c" id="third_option">Answer</label>
+            </li>
+
+            <li>
+                <input type="submit" id="submit-button" class="my-6 px-6 py-2 bg-yellow-400 rounded-full cursor-pointer hover:bg-yellow-600">
+            </li>
+        </ul>
+
+    </div>
+    <script src="../src/script.js"></script>
+</body>
+</html>
